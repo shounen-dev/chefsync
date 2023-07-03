@@ -15,7 +15,9 @@ export default function NavBar() {
         <li>
           <Link href={'/auth/dashboard/create-recipe'}>レシピ登録</Link>
         </li>
-        <li>レシピ一覧</li>
+        <li>
+          <Link href={'/auth/dashboard/recipes'}>レシピ一覧</Link>
+        </li>
         <Link href={'/auth/dashboard/settings/categories'}>設定</Link>
         <li>
           <Suspense>
